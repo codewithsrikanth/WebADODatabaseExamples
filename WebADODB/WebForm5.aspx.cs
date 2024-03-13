@@ -33,7 +33,7 @@ namespace WebADODB
 
             lblSalary.Text = salary.ToString();
 
-
+            Server.Transfer("~/WebForm6.aspx"); 
         }
     }
 }
