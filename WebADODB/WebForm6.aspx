@@ -17,6 +17,9 @@
                 <tr>
                     <td style="text-align:center" colspan="2">
                         <asp:Label ID="lblCity" runat="server" Text="" Font-Bold="true"></asp:Label>
+                        <br />
+                        <br />
+                        <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/WebForm1.aspx">WebForm1</asp:HyperLink>
                     </td>
                 </tr>
             </table>

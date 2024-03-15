@@ -16,6 +16,7 @@
                     <td>
                         <asp:TextBox ID="txtEno" runat="server" /></td>
                     <td>
+                        
                         <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" Text="Eno is Mandatory" ControlToValidate="txtEno" ForeColor="Red" Font-Bold="true"></asp:RequiredFieldValidator>
                         <br />
                         <asp:CompareValidator ID="CompareValidator1" runat="server" Text="Enter Only Digits" ControlToValidate="txtEno" Font-Bold="True" ForeColor="Red" Operator="DataTypeCheck" Type="Integer"></asp:CompareValidator>
